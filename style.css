@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header button{
+    background-color: red;
+    border-radius: 5px;
+    border: lightcoral 2px
+}
+
+#login-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    border: lightcoral solid 2px;
+}
+
+#user-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: red;
+}
+
+#user-info-container button{
+    background-color: red;
+    border: solid lightcoral 2px;
+    border-radius: 5px;
+
+}
