@@ -45,3 +45,9 @@ body{
     border-radius: 5px;
 
 }
+
+#switch-login-button{
+    flex: 1;
+    background-color: red;
+    border: solid lightcoral 2px;
+}
